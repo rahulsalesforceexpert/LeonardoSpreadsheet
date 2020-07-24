@@ -1,0 +1,1332 @@
+.lr_ribbonContainer {
+  /* http://meyerweb.com/eric/tools/css/reset/
+    v2.0-modified | 20110126
+    License: none (public domain)
+    */
+  line-height: 1;
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  /* make sure to set some focus styles for accessibility */
+  /* HTML5 display-role reset for older browsers */
+  /**
+    * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+    */
+  /**
+    * Prevent modern browsers from displaying `audio` without controls.
+    * Remove excess height in iOS 5 devices.
+    */
+  /**
+    * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+    * Known issue: no IE 6 support.
+    */
+  /**
+    * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+    *    `em` units.
+    * 2. Prevent iOS text size adjust after orientation change, without disabling
+    *    user zoom.
+    */
+  /**
+    * Address `outline` inconsistency between Chrome and other browsers.
+    */
+  /**
+    * Improve readability when focused and also mouse hovered in all browsers.
+    */
+  /**
+    * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+    * 2. Improve image quality when scaled in IE 7.
+    */
+  /**
+    * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+    */
+  /**
+    * Correct margin displayed oddly in IE 6/7.
+    */
+  /**
+    * Define consistent border, margin, and padding.
+    */
+  /**
+    * 1. Correct color not being inherited in IE 6/7/8/9.
+    * 2. Correct text not wrapping in Firefox 3.
+    * 3. Correct alignment displayed oddly in IE 6/7.
+    */
+  /**
+    * 1. Correct font size not being inherited in all browsers.
+    * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+    *    and Chrome.
+    * 3. Improve appearance and consistency in all browsers.
+    */
+  /**
+    * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+    * the UA stylesheet.
+    */
+  /**
+    * Address inconsistent `text-transform` inheritance for `button` and `select`.
+    * All other form control elements do not inherit `text-transform` values.
+    * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+    * Correct `select` style inheritance in Firefox 4+ and Opera.
+    */
+  /**
+    * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+    *    and `video` controls.
+    * 2. Correct inability to style clickable `input` types in iOS.
+    * 3. Improve usability and consistency of cursor style between image-type
+    *    `input` and others.
+    * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+    *    Known issue: inner spacing remains in IE 6.
+    */
+  /**
+    * Re-set default cursor for disabled elements.
+    */
+  /**
+    * 1. Address box sizing set to content-box in IE 8/9.
+    * 2. Remove excess padding in IE 8/9.
+    * 3. Remove excess padding in IE 7.
+    *    Known issue: excess padding remains in IE 6.
+    */
+  /**
+    * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+    * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+    *    (include `-moz` to future-proof).
+    */
+  /**
+    * Remove inner padding and search cancel button in Safari 5 and Chrome
+    * on OS X.
+    */
+  /**
+    * Remove inner padding and border in Firefox 3+.
+    */
+  /**
+    * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+    * 2. Improve readability and alignment in all browsers.
+    */
+  /**
+    * Remove most spacing between table cells.
+    */ }
+  .lr_ribbonContainer * {
+    box-sizing: content-box; }
+  .lr_ribbonContainer div, .lr_ribbonContainer span, .lr_ribbonContainer applet, .lr_ribbonContainer object, .lr_ribbonContainer iframe,
+  .lr_ribbonContainer h1, .lr_ribbonContainer h2, .lr_ribbonContainer h3, .lr_ribbonContainer h4, .lr_ribbonContainer h5, .lr_ribbonContainer h6, .lr_ribbonContainer p, .lr_ribbonContainer blockquote, .lr_ribbonContainer pre,
+  .lr_ribbonContainer a, .lr_ribbonContainer abbr, .lr_ribbonContainer acronym, .lr_ribbonContainer address, .lr_ribbonContainer big, .lr_ribbonContainer cite, .lr_ribbonContainer code,
+  .lr_ribbonContainer del, .lr_ribbonContainer dfn, .lr_ribbonContainer em, .lr_ribbonContainer img, .lr_ribbonContainer ins, .lr_ribbonContainer kbd, .lr_ribbonContainer q, .lr_ribbonContainer s, .lr_ribbonContainer samp,
+  .lr_ribbonContainer small, .lr_ribbonContainer strike, .lr_ribbonContainer strong, .lr_ribbonContainer sub, .lr_ribbonContainer sup, .lr_ribbonContainer tt, .lr_ribbonContainer var,
+  .lr_ribbonContainer b, .lr_ribbonContainer u, .lr_ribbonContainer i, .lr_ribbonContainer center,
+  .lr_ribbonContainer dl, .lr_ribbonContainer dt, .lr_ribbonContainer dd, .lr_ribbonContainer ol, .lr_ribbonContainer ul, .lr_ribbonContainer li,
+  .lr_ribbonContainer fieldset, .lr_ribbonContainer form, .lr_ribbonContainer label, .lr_ribbonContainer legend,
+  .lr_ribbonContainer table, .lr_ribbonContainer caption, .lr_ribbonContainer tbody, .lr_ribbonContainer tfoot, .lr_ribbonContainer thead, .lr_ribbonContainer tr, .lr_ribbonContainer th, .lr_ribbonContainer td,
+  .lr_ribbonContainer article, .lr_ribbonContainer aside, .lr_ribbonContainer canvas, .lr_ribbonContainer details, .lr_ribbonContainer embed,
+  .lr_ribbonContainer figure, .lr_ribbonContainer figcaption, .lr_ribbonContainer footer, .lr_ribbonContainer header, .lr_ribbonContainer hgroup,
+  .lr_ribbonContainer menu, .lr_ribbonContainer nav, .lr_ribbonContainer output, .lr_ribbonContainer ruby, .lr_ribbonContainer section, .lr_ribbonContainer summary,
+  .lr_ribbonContainer time, .lr_ribbonContainer mark, .lr_ribbonContainer audio, .lr_ribbonContainer video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+  .lr_ribbonContainer :focus {
+    outline: 0; }
+  .lr_ribbonContainer article, .lr_ribbonContainer aside, .lr_ribbonContainer details, .lr_ribbonContainer figcaption, .lr_ribbonContainer figure,
+  .lr_ribbonContainer footer, .lr_ribbonContainer header, .lr_ribbonContainer hgroup, .lr_ribbonContainer menu, .lr_ribbonContainer nav, .lr_ribbonContainer section {
+    display: block; }
+  .lr_ribbonContainer ol, .lr_ribbonContainer ul {
+    list-style: none; }
+  .lr_ribbonContainer blockquote, .lr_ribbonContainer q {
+    quotes: none; }
+  .lr_ribbonContainer blockquote:before, .lr_ribbonContainer blockquote:after,
+  .lr_ribbonContainer q:before, .lr_ribbonContainer q:after {
+    content: '';
+    content: none; }
+  .lr_ribbonContainer table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  .lr_ribbonContainer input[type=search]::-webkit-search-cancel-button,
+  .lr_ribbonContainer input[type=search]::-webkit-search-decoration,
+  .lr_ribbonContainer input[type=search]::-webkit-search-results-button,
+  .lr_ribbonContainer input[type=search]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    -moz-appearance: none; }
+  .lr_ribbonContainer input[type=search] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; }
+  .lr_ribbonContainer textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical; }
+  .lr_ribbonContainer audio,
+  .lr_ribbonContainer canvas,
+  .lr_ribbonContainer video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    max-width: 100%; }
+  .lr_ribbonContainer audio:not([controls]) {
+    display: none;
+    height: 0; }
+  .lr_ribbonContainer [hidden] {
+    display: none; }
+  .lr_ribbonContainer a:focus {
+    outline: thin dotted; }
+  .lr_ribbonContainer a:active,
+  .lr_ribbonContainer a:hover {
+    outline: 0; }
+  .lr_ribbonContainer img {
+    border: 0;
+    /* 1 */
+    -ms-interpolation-mode: bicubic;
+    /* 2 */ }
+  .lr_ribbonContainer figure {
+    margin: 0; }
+  .lr_ribbonContainer form {
+    margin: 0; }
+  .lr_ribbonContainer fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em; }
+  .lr_ribbonContainer legend {
+    border: 0;
+    /* 1 */
+    padding: 0;
+    white-space: normal;
+    /* 2 */
+    *margin-left: -7px;
+    /* 3 */ }
+  .lr_ribbonContainer button,
+  .lr_ribbonContainer input,
+  .lr_ribbonContainer select,
+  .lr_ribbonContainer textarea {
+    font-size: 100%;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    vertical-align: baseline;
+    /* 3 */
+    *vertical-align: middle;
+    /* 3 */ }
+  .lr_ribbonContainer button,
+  .lr_ribbonContainer input {
+    line-height: normal; }
+  .lr_ribbonContainer button,
+  .lr_ribbonContainer select {
+    text-transform: none; }
+  .lr_ribbonContainer button,
+  .lr_ribbonContainer html input[type="button"],
+  .lr_ribbonContainer input[type="reset"],
+  .lr_ribbonContainer input[type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+    *overflow: visible;
+    /* 4 */ }
+  .lr_ribbonContainer button[disabled],
+  .lr_ribbonContainer html input[disabled] {
+    cursor: default; }
+  .lr_ribbonContainer input[type="checkbox"],
+  .lr_ribbonContainer input[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+    *height: 13px;
+    /* 3 */
+    *width: 13px;
+    /* 3 */ }
+  .lr_ribbonContainer input[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    /* 2 */
+    box-sizing: content-box; }
+  .lr_ribbonContainer input[type="search"]::-webkit-search-cancel-button,
+  .lr_ribbonContainer input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  .lr_ribbonContainer button::-moz-focus-inner,
+  .lr_ribbonContainer input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .lr_ribbonContainer textarea {
+    overflow: auto;
+    /* 1 */
+    vertical-align: top;
+    /* 2 */ }
+  .lr_ribbonContainer table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  .lr_ribbonContainer html,
+  .lr_ribbonContainer button,
+  .lr_ribbonContainer input,
+  .lr_ribbonContainer select,
+  .lr_ribbonContainer textarea {
+    color: #222; }
+  .lr_ribbonContainer ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none; }
+  .lr_ribbonContainer ::selection {
+    background: #b3d4fc;
+    text-shadow: none; }
+  .lr_ribbonContainer img {
+    vertical-align: middle; }
+  .lr_ribbonContainer fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0; }
+  .lr_ribbonContainer textarea {
+    resize: vertical; }
+  .lr_ribbonContainer .chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0; }
+
+.lr_ribbonContainer {
+  /*  width: 100%; */
+  top: 0px;
+  left: 0px;
+  box-sizing: content-box;
+  /* box-sizing: border-box; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Segoe UI", Arial, Verdana, sans-serif;
+  font-size: 0;
+  color: #444444;
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #ddd; }
+  .lr_ribbonContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .lr_ribbonContainer li {
+    list-style: none; }
+  .lr_ribbonContainer .lr_tabbar {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    white-space: nowrap; }
+  .lr_ribbonContainer .lr_tab {
+    cursor: default;
+    list-style-type: none;
+    margin-bottom: -1px;
+    padding: 7px 12px;
+    outline: medium none;
+    white-space: nowrap;
+    font-size: 9pt;
+    border-style: solid solid none;
+    border-color: #FFFFFF #FFFFFF #E1E1E1;
+    border-width: 1px;
+    color: #444444;
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+    display: inline-block; }
+    .lr_ribbonContainer .lr_tab.active {
+      border-color: #E1E1E1 #E1E1E1 #FFFFFF;
+      border-style: solid;
+      color: #217346;
+      background-color: white; }
+    .lr_ribbonContainer .lr_tab:hover {
+      color: #217346; }
+  .lr_ribbonContainer .lr_panel, .lr_ribbonContainer .lr_tabpanel {
+    white-space: nowrap; }
+  .lr_ribbonContainer .lr_panel.active, .lr_ribbonContainer .lr_tabpanel.active {
+    display: block; }
+  .lr_ribbonContainer .lr_sectionCnt {
+    height: auto;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    list-style: none;
+    display: inline-block; }
+  .lr_ribbonContainer .lr_sectionWrapper {
+    display: inline-block; }
+  .lr_ribbonContainer .lr_sectionbody {
+    vertical-align: middle;
+    padding-right: 4px;
+    padding-left: 4px; }
+  .lr_ribbonContainer .lr_sectionfooter {
+    display: inline-table;
+    width: 100%;
+    padding-top: 9px; }
+  .lr_ribbonContainer .section-title-wrapper {
+    display: inline-block;
+    width: 100%;
+    /* float: left; */ }
+  .lr_ribbonContainer .lr_sectionFooterWithLauncher .section-title-wrapper {
+    width: calc(100% - 13px); }
+  .lr_ribbonContainer .lr_sectionName {
+    text-align: center;
+    width: auto;
+    font-weight: 500;
+    font-size: 8pt;
+    display: block;
+    text-align: center;
+    color: #666666; }
+  .lr_ribbonContainer .lr_sectionlauncher {
+    float: right;
+    position: relative; }
+  .lr_ribbonContainer .lr_envelop_h {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0px; }
+    .lr_ribbonContainer .lr_envelop_h > .lr_envelop_cell {
+      /* display:table-cell; //hack to save UI, if we removing its "table-cell" (or parent's 'table' then inputControl's table-cell is breaking the UI*/
+      display: table-cell;
+      /* vertical-align: middle; */
+      vertical-align: top; }
+  .lr_ribbonContainer .lr_envelop_v {
+    vertical-align: middle;
+    padding-left: 0px; }
+    .lr_ribbonContainer .lr_envelop_v > .lr_envelop_cell {
+      display: block; }
+  .lr_ribbonContainer .layout_2row .lr_control {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .lr_ribbonContainer .layout_2row .lr_sectionbody {
+    padding-top: 2px;
+    padding-bottom: 2px; }
+  .lr_ribbonContainer .layout_3row .lr_envelop_h {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .lr_ribbonContainer .layout_3row .lr_sectionbody {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .lr_ribbonContainer .lr_sectionseparator {
+    width: 1px;
+    background-color: #E1E1E1;
+    margin-top: 6px;
+    margin-bottom: 0px; }
+  .lr_ribbonContainer .lr_separator_v {
+    width: 1px;
+    background-color: #E1E1E1;
+    margin-right: 4px;
+    margin-left: 4px; }
+  .lr_ribbonContainer .lr_separator_h {
+    width: 100%;
+    height: 1px;
+    background-color: #E1E1E1; }
+  .lr_ribbonContainer .icon-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    /* float: left; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent; }
+  .lr_ribbonContainer .icon-binder {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent; }
+  .lr_ribbonContainer img.icon {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent; }
+  .lr_ribbonContainer .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 3px;
+    vertical-align: middle;
+    border-top: 3px dashed;
+    border-top: 3px solid \9;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent; }
+  .lr_ribbonContainer .lr_icon {
+    padding: 2px; }
+  .lr_ribbonContainer .lr_text {
+    display: inline-block;
+    vertical-align: middle; }
+  .lr_ribbonContainer .lr_menusContainer {
+    position: relative; }
+  .lr_ribbonContainer .lr_menusContainer .caretSubmenu {
+    border-left: 4px dashed;
+    border-left: 4px solid \9;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    float: right;
+    padding-right: 5px; }
+
+.lr_ribbonContainer {
+  /* ul.dropdown-menu1 > li {
+      &:not(.lr_menuitemColorGrid):not(.lr_multiItemMultiItem):hover {
+        background-color: #D3F0E0;
+      }
+      &.dropdown-header:not(.lr_menuitemColorGrid):not(.lr_multiItemMultiItem):hover {
+        background-color: #e5e5e5;
+      }
+      &.active {
+        background-color: #9FD5B7;
+      }
+    } */
+  /* .dropdown-header {
+      background-color: #ebebeb;
+    } */
+  /* ul.dropdown-menu1 .lr_menuitem_separator {
+      background-color: #e5e5e5;
+      &:hover {
+        background-color: #e5e5e5;
+      }
+    } */ }
+  .lr_ribbonContainer .lr_hidden {
+    display: none; }
+  .lr_ribbonContainer .lr_disable {
+    background-color: gray; }
+  .lr_ribbonContainer .lr_disable.hover {
+    background-color: gray; }
+  .lr_ribbonContainer .lr_control.lr_focused {
+    background-color: #D3F0E0; }
+
+.lr_ribbonContainer {
+  /*   for overflow-x hiding menu/tooltip problem */ }
+  .lr_ribbonContainer .lr_tooltip {
+    padding: 3px;
+    text-align: left;
+    display: none;
+    background-color: #fff;
+    color: #5D5D5D;
+    z-index: 9990;
+    border: 1px solid #BEBEBE;
+    height: auto;
+    -moz-box-shadow: 0 0 2px #888;
+    -webkit-box-shadow: 0 0 2px #888;
+    box-shadow: 0 0 2px #888;
+    position: absolute;
+    pointer-events: none;
+    white-space: pre-line;
+    width: 206px; }
+    .lr_ribbonContainer .lr_tooltip.itemTooltip {
+      top: auto;
+      display: none;
+      margin-top: 5px;
+      white-space: pre-line; }
+  .lr_ribbonContainer .tooltipHeader, .lr_ribbonContainer .tooltipBody, .lr_ribbonContainer .tooltipImage {
+    padding: 4px 8px;
+    font-size: 8pt; }
+  .lr_ribbonContainer .tooltipHeader {
+    font-weight: bold;
+    color: #5D5D5D; }
+  .lr_ribbonContainer .tooltipBody {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: auto;
+    display: block;
+    line-height: 15px;
+    color: #5D5D5D; }
+  .lr_ribbonContainer .tooltipImage {
+    display: block;
+    float: left;
+    width: 96px;
+    line-height: 15px;
+    vertical-align: top;
+    word-wrap: break-word; }
+  .lr_ribbonContainer .lr_accesskeytooltip {
+    background-color: black;
+    color: white;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+    z-index: 2000;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    /* For IE8 and earlier */
+    font-size: 9pt; }
+  .lr_ribbonContainer .accessKeytest, .lr_ribbonContainer .tooltiptest {
+    display: inline-block; }
+  .lr_ribbonContainer .lr_tooltip:not(.itemTooltip) {
+    position: fixed; }
+  .lr_ribbonContainer .lr_tooltip.lr_tooltipWithImg {
+    width: 318px; }
+  .lr_ribbonContainer .lr_tooltip.lr_tooltipWithNoHeader {
+    width: auto; }
+
+.lr_ribbonContainer .lr_emptySpace {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom; }
+
+.lr_ribbonContainer .lr_pin {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block; }
+  .lr_ribbonContainer .lr_pin .lr_icon {
+    padding: 0;
+    font-size: 0; }
+  .lr_ribbonContainer .lr_pin:hover {
+    background-color: #D3F0E0; }
+
+.lr_ribbonContainer .lr_horizontalScroll {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: relative;
+  overflow-x: hidden; }
+
+.lr_ribbonContainer .lr_leftScrollButton,
+.lr_ribbonContainer .lr_rightScrollButton {
+  position: absolute;
+  width: 15px;
+  height: 100%;
+  top: 0px;
+  background-color: white;
+  border: 1px solid #E1E1E1;
+  z-index: 100;
+  box-sizing: border-box; }
+
+.lr_ribbonContainer .lr_leftScrollButton:hover,
+.lr_ribbonContainer .lr_rightScrollButton:hover {
+  border: 1px solid #D3D3D3; }
+
+.lr_ribbonContainer .lr_leftScrollButton {
+  left: 0px;
+  padding-left: 4px; }
+
+.lr_ribbonContainer .lr_rightScrollButton {
+  right: 0px;
+  padding-left: 4px; }
+
+.lr_ribbonContainer .lr_rightScrollButton .caretSubmenu {
+  border-left: 4px dashed;
+  border-left: 4px solid \9;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  position: absolute;
+  top: calc(50%); }
+
+.lr_ribbonContainer .lr_leftScrollButton .caretSubmenu {
+  border-right: 4px dashed;
+  border-right: 4px solid \9;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  position: absolute;
+  top: calc(50%); }
+
+.lr_ribbonContainer .lr_scrollContent {
+  top: 0px;
+  left: 0px;
+  position: relative;
+  display: inline-block;
+  min-width: 100%; }
+
+/* Selectable button */
+/* button */
+.lr_ribbon .lr_buttonControl .lr_controlPartButton {
+  background-color: transparent;
+  display: inline-block; }
+
+.lr_ribbon .lr_buttonControl:hover {
+  background-color: #D3F0E0; }
+
+.lr_ribbon .lr_selectableButton .lr_icon,
+.lr_ribbon .lr_retainSelectionButton .lr_icon,
+.lr_ribbon .lr_statelessButton .lr_icon {
+  font-size: 0px; }
+
+.lr_ribbon .lr_selectableButton .icon-wrapper,
+.lr_ribbon .lr_retainSelectionButton .icon-wrapper,
+.lr_ribbon .lr_statelessButton .icon-wrapper {
+  background-color: transparent;
+  display: inline-block; }
+
+.lr_ribbon .lr_selectableButton.lr_buttonSelected,
+.lr_ribbon .lr_retainSelectionButton.lr_buttonSelected,
+.lr_ribbon .lr_statelessButton.lr_buttonSelected {
+  border: 1px solid #9FD5B7;
+  background-color: #9FD5B7; }
+
+.lr_ribbon .lr_selectableButton:hover,
+.lr_ribbon .lr_retainSelectionButton:hover,
+.lr_ribbon .lr_statelessButton:hover {
+  background-color: #D3F0E0; }
+
+.lr_ribbon .lr_selectableButton:active,
+.lr_ribbon .lr_retainSelectionButton:active,
+.lr_ribbon .lr_statelessButton:active {
+  background-color: #86BFA0;
+  background-color: #86BFA0; }
+
+.lr_ribbon .lr_selectableButton .lr_text,
+.lr_ribbon .lr_retainSelectionButton .lr_text,
+.lr_ribbon .lr_statelessButton .lr_text {
+  padding-right: 4px;
+  padding-left: 2px;
+  font-weight: 500;
+  margin-top: -1px; }
+
+.lr_ribbon .lr_selectableButton .tooltipHeader .lr_text,
+.lr_ribbon .lr_retainSelectionButton .tooltipHeader .lr_text,
+.lr_ribbon .lr_statelessButton .tooltipHeader .lr_text {
+  font-weight: bold;
+  padding: 0;
+  font-size: 8pt; }
+
+.lr_ribbon .lr_selectableButton .lr_controlPartButton,
+.lr_ribbon .lr_retainSelectionButton .lr_controlPartButton,
+.lr_ribbon .lr_statelessButton .lr_controlPartButton {
+  padding-bottom: 1px; }
+
+.lr_ribbon .lr_selectableButton.lr_disable,
+.lr_ribbon .lr_retainSelectionButton.lr_disable,
+.lr_ribbon .lr_statelessButton.lr_disable {
+  border: 1px solid gray;
+  background-color: gray; }
+  .lr_ribbon .lr_selectableButton.lr_disable:hover,
+  .lr_ribbon .lr_retainSelectionButton.lr_disable:hover,
+  .lr_ribbon .lr_statelessButton.lr_disable:hover {
+    background-color: gray; }
+
+/* Common */
+.lr_ribbonContainer .lr_hidden {
+  display: none; }
+
+.lr_ribbonContainer .lr_disable {
+  background-color: gray; }
+
+.lr_ribbonContainer .lr_disable.hover {
+  background-color: gray; }
+
+.lr_ribbonContainer .lr_control {
+  font-size: 9pt;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 1px solid transparent;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle; }
+  .lr_ribbonContainer .lr_control.lr_focused {
+    background-color: #D3F0E0; }
+
+.lr_ribbon .lr_sectionLauncherBtn {
+  font-size: 0; }
+  .lr_ribbon .lr_sectionLauncherBtn .lr_icon {
+    padding: 2px; }
+
+.lr_ribbon .lr_imageButton {
+  font-size: 0;
+  border: 0; }
+  .lr_ribbon .lr_imageButton .lr_icon {
+    padding: 0px; }
+  .lr_ribbon .lr_imageButton .lr_controlPartButton {
+    padding-bottom: 0px; }
+
+/* Split Button */
+.lr_ribbon .lr_splitButtonControl {
+  display: inline-flex;
+  /* this creates equal height for splits */
+  border: 0px; }
+  .lr_ribbon .lr_splitButtonControl .lr_buttonWrapper,
+  .lr_ribbon .lr_splitButtonControl .lr_menuopenerWrapper {
+    position: relative; }
+  .lr_ribbon .lr_splitButtonControl:hover .lr_controlPartButton,
+  .lr_ribbon .lr_splitButtonControl:hover .lr_menuopener {
+    border-color: #D3F0E0; }
+  .lr_ribbon .lr_splitButtonControl .lr_controlPartButton,
+  .lr_ribbon .lr_splitButtonControl .lr_menuopener {
+    position: relative;
+    border: 1px solid transparent; }
+    .lr_ribbon .lr_splitButtonControl .lr_controlPartButton:hover,
+    .lr_ribbon .lr_splitButtonControl .lr_menuopener:hover {
+      background-color: #D3F0E0;
+      border-color: #D3F0E0; }
+    .lr_ribbon .lr_splitButtonControl .lr_controlPartButton .caret,
+    .lr_ribbon .lr_splitButtonControl .lr_menuopener .caret {
+      margin-top: 9px;
+      margin-bottom: 9px; }
+  .lr_ribbon .lr_splitButtonControl .lr_controlPartButton {
+    padding-bottom: 1px; }
+    .lr_ribbon .lr_splitButtonControl .lr_controlPartButton .lr_icon {
+      font-size: 0; }
+    .lr_ribbon .lr_splitButtonControl .lr_controlPartButton .lr_text {
+      margin-left: 2px;
+      margin-right: 5px;
+      margin-bottom: 4px; }
+  .lr_ribbon .lr_splitButtonControl .lr_menuopener {
+    padding-left: 1px;
+    padding-right: 1px; }
+  .lr_ribbon .lr_splitButtonControl.lr_toggled .lr_controlPartButton,
+  .lr_ribbon .lr_splitButtonControl.lr_toggled .lr_menuopener {
+    background-color: #9FD5B7;
+    border-color: #9FD5B7; }
+    .lr_ribbon .lr_splitButtonControl.lr_toggled .lr_controlPartButton:hover,
+    .lr_ribbon .lr_splitButtonControl.lr_toggled .lr_menuopener:hover {
+      background-color: #D3F0E0; }
+  .lr_ribbon .lr_splitButtonControl.lr_menuOpenInControl .lr_controlPartButton,
+  .lr_ribbon .lr_splitButtonControl.lr_menuOpenInControl .lr_menuopener {
+    background-color: #9FD5B7;
+    border-color: #9FD5B7; }
+    .lr_ribbon .lr_splitButtonControl.lr_menuOpenInControl .lr_controlPartButton:hover,
+    .lr_ribbon .lr_splitButtonControl.lr_menuOpenInControl .lr_menuopener:hover {
+      background-color: #9FD5B7;
+      border-color: #9FD5B7; }
+  .lr_ribbon .lr_splitButtonControl.lr_disable .lr_menuopener,
+  .lr_ribbon .lr_splitButtonControl.lr_disable .lr_controlPartButton {
+    background-color: gray;
+    border-color: gray; }
+    .lr_ribbon .lr_splitButtonControl.lr_disable .lr_menuopener:hover,
+    .lr_ribbon .lr_splitButtonControl.lr_disable .lr_controlPartButton:hover {
+      background-color: gray;
+      border-color: gray; }
+
+/* Split Button Dropdown */
+.lr_ribbon .lr_splitButtonDropdownControl {
+  display: flex;
+  /* this creates equal height for splits */ }
+  .lr_ribbon .lr_splitButtonDropdownControl:hover {
+    border-color: #D3F0E0; }
+  .lr_ribbon .lr_splitButtonDropdownControl .lr_button, .lr_ribbon .lr_splitButtonDropdownControl .lr_menuopenerWrapper {
+    position: relative;
+    float: left; }
+  .lr_ribbon .lr_splitButtonDropdownControl .lr_controlPartButton, .lr_ribbon .lr_splitButtonDropdownControl .lr_menuopener {
+    background-color: transparent;
+    position: relative;
+    float: left;
+    height: 100%; }
+    .lr_ribbon .lr_splitButtonDropdownControl .lr_controlPartButton .caret, .lr_ribbon .lr_splitButtonDropdownControl .lr_menuopener .caret {
+      margin-top: 9px;
+      margin-bottom: 9px; }
+  .lr_ribbon .lr_splitButtonDropdownControl .lr_controlPartButton {
+    padding-bottom: 1px; }
+    .lr_ribbon .lr_splitButtonDropdownControl .lr_controlPartButton .lr_icon {
+      font-size: 0; }
+  .lr_ribbon .lr_splitButtonDropdownControl.lr_menuOpenInControl {
+    border: 1px solid #9FD5B7;
+    background-color: #9FD5B7; }
+  .lr_ribbon .lr_splitButtonDropdownControl.lr_toggled {
+    border: 1px solid #9FD5B7;
+    background-color: #9FD5B7; }
+  .lr_ribbon .lr_splitButtonDropdownControl .lr_controlPartButton:hover, .lr_ribbon .lr_splitButtonDropdownControl .lr_menuopener:hover {
+    background-color: #D3F0E0;
+    border-color: #D3F0E0; }
+  .lr_ribbon .lr_splitButtonDropdownControl.lr_menuOpenInControl .lr_controlPartButton:hover, .lr_ribbon .lr_splitButtonDropdownControl.lr_menuOpenInControl .lr_menuopener:hover {
+    background-color: #9FD5B7;
+    border-color: #9FD5B7; }
+  .lr_ribbon .lr_splitButtonDropdownControl .lr_bottomColor {
+    width: 100%;
+    height: 4px;
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    bottom: -12px;
+    box-sizing: border-box; }
+  .lr_ribbon .lr_splitButtonDropdownControl.lr_disable {
+    border: 1px solid gray;
+    background-color: gray; }
+    .lr_ribbon .lr_splitButtonDropdownControl.lr_disable:hover {
+      background-color: gray; }
+    .lr_ribbon .lr_splitButtonDropdownControl.lr_disable .lr_menuopener:hover, .lr_ribbon .lr_splitButtonDropdownControl.lr_disable .lr_controlPartButton:hover {
+      background-color: gray; }
+
+/* Vertical Split Button Dropdown */
+.lr_ribbon .lr_verticalSplitButtonControl:hover {
+  border-color: #D3F0E0; }
+
+.lr_verticalSplitButtonControl > .lr_button, .lr_verticalSplitButtonControl > .lr_menuopenerWrapper {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%; }
+
+.lr_verticalSplitButtonControl .lr_controlPartButton, .lr_verticalSplitButtonControl .lr_menuopener, .lr_verticalSplitButtonControl .lr_menuopenerWithText {
+  display: inline-block;
+  float: none;
+  width: 100%;
+  max-width: 100%; }
+
+.lr_verticalSplitButtonControl .lr_controlPartButton {
+  padding-bottom: 1px; }
+
+.lr_ribbon .lr_verticalSplitButtonControl.lr_menuOpenInControl {
+  border: 1px solid #9FD5B7;
+  background-color: #9FD5B7; }
+
+.lr_ribbon .lr_verticalSplitButtonControl .lr_controlPartButton:hover, .lr_ribbon .lr_verticalSplitButtonControl .lr_menuopener:hover, .lr_ribbon .lr_verticalSplitButtonControl .lr_menuopenerWithText:hover {
+  background-color: #D3F0E0;
+  border-color: #D3F0E0; }
+
+.lr_ribbon .lr_verticalSplitButtonControl.lr_menuOpenInControl .lr_controlPartButton:hover, .lr_ribbon .lr_verticalSplitButtonControl.lr_menuOpenInControl .lr_menuopener:hover, .lr_ribbon .lr_verticalSplitButtonControl.lr_menuOpenInControl .lr_menuopenerWithText:hover {
+  background-color: #9FD5B7;
+  border-color: #9FD5B7; }
+
+.lr_verticalSplitButtonControl .lr_menuopenerWithText {
+  text-align: center; }
+  .lr_verticalSplitButtonControl .lr_menuopenerWithText .lr_text {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 3px; }
+  .lr_verticalSplitButtonControl .lr_menuopenerWithText .caretWrapper {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 4px;
+    font-size: 0px; }
+    .lr_verticalSplitButtonControl .lr_menuopenerWithText .caretWrapper .caret {
+      margin-top: 8px;
+      margin-bottom: 1px;
+      vertical-align: baseline; }
+
+.lr_verticalSplitButtonControl .lr_controlPartButton .lr_icon {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  font-size: 0; }
+
+.lr_ribbonContainer .lr_menusContainer #menu_id_paste .lr_menuitem.lr_multiItemMultiItem .lr_tooltip.itemTooltip.lr_tooltipWithNoHeader {
+  white-space: nowrap; }
+  .lr_ribbonContainer .lr_menusContainer #menu_id_paste .lr_menuitem.lr_multiItemMultiItem .lr_tooltip.itemTooltip.lr_tooltipWithNoHeader .tooltipBody {
+    padding: 0 2px; }
+
+.lr_ribbonContainer .lr_menusContainer #menu_id_paste .lr_menuitem.lr_menuitemText.lr_tooltipWrapper {
+  padding-left: 8px; }
+
+/* Button Dropdown */
+.lr_ribbon .lr_buttonDropdownControl {
+  display: inline-flex; }
+  .lr_ribbon .lr_buttonDropdownControl:hover {
+    border-color: #D3F0E0; }
+  .lr_ribbon .lr_buttonDropdownControl .lr_buttonWrapper {
+    position: relative;
+    float: left; }
+  .lr_ribbon .lr_buttonDropdownControl .lr_controlPartButton {
+    background-color: transparent;
+    position: relative;
+    float: left; }
+    .lr_ribbon .lr_buttonDropdownControl .lr_controlPartButton:hover {
+      background-color: #D3F0E0;
+      border-color: #D3F0E0; }
+    .lr_ribbon .lr_buttonDropdownControl .lr_controlPartButton .lr_text {
+      margin-left: 2px;
+      margin-right: 7px;
+      margin-bottom: 4px; }
+  .lr_ribbon .lr_buttonDropdownControl.lr_menuOpenInControl {
+    border: 1px solid #9FD5B7;
+    background-color: #9FD5B7; }
+    .lr_ribbon .lr_buttonDropdownControl.lr_menuOpenInControl .lr_controlPartButton:hover {
+      background-color: #9FD5B7;
+      border-color: #9FD5B7; }
+  .lr_ribbon .lr_buttonDropdownControl.lr_disable {
+    border: 1px solid gray;
+    background-color: gray; }
+    .lr_ribbon .lr_buttonDropdownControl.lr_disable:hover {
+      background-color: gray; }
+    .lr_ribbon .lr_buttonDropdownControl.lr_disable .lr_controlPartButton:hover {
+      background-color: gray; }
+  .lr_ribbon .lr_buttonDropdownControl .caret {
+    margin-top: 4px; }
+
+.lr_ribbon .lr_buttonDropdownControl.lr_imageButton {
+  font-size: 0;
+  border: 0; }
+  .lr_ribbon .lr_buttonDropdownControl.lr_imageButton .lr_icon {
+    padding: 0px; }
+  .lr_ribbon .lr_buttonDropdownControl.lr_imageButton .lr_controlPartButton {
+    padding-bottom: 0px; }
+  .lr_ribbon .lr_buttonDropdownControl.lr_imageButton.lr_menuOpenInControl {
+    border: 0px; }
+  .lr_ribbon .lr_buttonDropdownControl.lr_imageButton.lr_disable {
+    border: 0px; }
+
+.lr_ribbonContainer .lr_ribbon .lrc_googlesheetSectionSeparator {
+  height: 12px; }
+
+.lr_ribbonContainer .lr_panel,
+.lr_ribbonContainer .lr_tabpanel {
+  min-height: 94px;
+  /* hardcoded to make same height for all tabs */ }
+
+.lr_ribbonContainer .lr_sectionseparator {
+  height: 81px; }
+
+.lr_ribbonContainer .lr_separator_v {
+  height: 20px;
+  margin-top: 6px; }
+
+.lr_ribbonContainer .lrc_numberFormat input {
+  width: 108px; }
+
+.lr_ribbonContainer .lrc_fullControlSeparator {
+  height: 50px; }
+
+.lr_ribbonContainer .lr_menu .lr_multiItemMultiItem {
+  /* display: inline-block; */
+  padding: 0px; }
+
+.lr_ribbonContainer .lr_menu .lr_multiItemWrapper {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+
+.lr_ribbonContainer .lr_menu .lr_menuItemImageButton {
+  float: left;
+  padding: 1px; }
+  .lr_ribbonContainer .lr_menu .lr_menuItemImageButton:hover {
+    background-color: #D3F0E0; }
+
+.lr_ribbonContainer .lr_menu,
+.lr_ribbonContainer .lr_submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  padding: 2px 0;
+  font-size: 12px;
+  list-style: none;
+  background-color: #fff;
+  color: black;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+
+.lr_ribbonContainer .lr_submenu {
+  margin-left: 2px; }
+
+.lr_ribbonContainer .lr_menu:focus,
+.lr_ribbonContainer .lr_submenu:focus {
+  outline: none; }
+
+.lr_ribbonContainer .lr_menu li {
+  display: list-item; }
+
+.lr_ribbonContainer .lr_menuItemHeader {
+  /* height: 21px; */
+  background-color: #ebebeb;
+  font-weight: bold;
+  color: #777777;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  margin-right: 0;
+  font-size: 12px;
+  display: block; }
+  .lr_ribbonContainer .lr_menuItemHeader:hover {
+    background-color: #ebebeb; }
+
+.lr_ribbonContainer .lr_menuitem_separator {
+  height: 1px;
+  margin: 0px 0;
+  overflow: hidden;
+  background-color: #ebebeb;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 1px; }
+  .lr_ribbonContainer .lr_menuitem_separator:hover {
+    background-color: #ebebeb; }
+
+.lr_ribbonContainer .lr_menuitem_separator_withOffset {
+  margin-left: 36px;
+  /* hardcoded */ }
+
+.lr_ribbonContainer .lr_inputDropdown.lr_fontFamily .lr_menuItemHeader .lr_text {
+  font-size: 12px; }
+
+.lr_ribbonContainer .lr_menu > li > div,
+.lr_ribbonContainer .lr_submenu > li > div {
+  display: block;
+  clear: both;
+  /* its absense was breaking ui */
+  white-space: nowrap;
+  color: #444444; }
+
+.lr_ribbonContainer .lr_menu > li:not(.lr_multiItemMultiItem):hover,
+.lr_ribbonContainer .lr_submenu > li:not(.lr_multiItemMultiItem):hover {
+  background-color: #D3F0E0; }
+  .lr_ribbonContainer .lr_menu > li:not(.lr_multiItemMultiItem):hover.active,
+  .lr_ribbonContainer .lr_submenu > li:not(.lr_multiItemMultiItem):hover.active {
+    background-color: #9FD5B7; }
+
+.lr_ribbonContainer .lr_menu > li.lr_menuItemHeader:hover {
+  background-color: #ebebeb; }
+
+.lr_ribbonContainer .lr_menuitem {
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+  .lr_ribbonContainer .lr_menuitem .lr_icon {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px solid transparent;
+    font-size: 0px; }
+  .lr_ribbonContainer .lr_menuitem > div > .lr_text {
+    padding-left: 9px;
+    vertical-align: baseline; }
+
+.lr_ribbonContainer .lr_menuitemText,
+.lr_ribbonContainer .lr_menuitemTextWithSubmenu {
+  padding-left: 27px;
+  padding-top: 4px;
+  padding-bottom: 7px; }
+
+.lr_ribbonContainer .lr_menuitemWithSubmenu,
+.lr_ribbonContainer .lr_menuitemTextWithSubmenu {
+  position: relative; }
+
+.lr_ribbonContainer .lr_menu .lr_menuitemWithSubmenu > ul.lr_submenu,
+.lr_ribbonContainer .lr_menu .lr_menuitemTextWithSubmenu > ul.lr_submenu,
+.lr_ribbonContainer .lr_submenu .lr_menuitemWithSubmenu > ul.lr_submenu,
+.lr_ribbonContainer .lr_submenu .lr_menuitemTextWithSubmenu > ul.lr_submenu {
+  display: none;
+  top: 0;
+  left: 100%;
+  margin-top: -0px; }
+
+.lr_ribbonContainer .lr_menu .lr_menuitemWithSubmenu:hover > ul.lr_submenu,
+.lr_ribbonContainer .lr_menu .lr_menuitemTextWithSubmenu:hover > ul.lr_submenu,
+.lr_ribbonContainer .lr_submenu .lr_menuitemWithSubmenu:hover > ul.lr_submenu,
+.lr_ribbonContainer .lr_submenu .lr_menuitemTextWithSubmenu:hover > ul.lr_submenu {
+  display: block; }
+
+.lr_ribbonContainer .lr_menu .lr_toggled .icon-wrapper,
+.lr_ribbonContainer .lr_submenu .lr_toggled .icon-wrapper {
+  border: 1px solid #86bfa0;
+  background-color: #e9f5ee; }
+
+.lr_ribbonContainer .lr_focused {
+  background-color: #D3F0E0; }
+
+/* Input Dropdwon */
+.lr_ribbon .lr_inputDropdown {
+  border: 1px #ABABAB solid;
+  display: flex; }
+  .lr_ribbon .lr_inputDropdown:hover {
+    outline: 1px #9FD5B7 solid; }
+  .lr_ribbon .lr_inputDropdown .lr_controlPartInput {
+    position: relative;
+    float: left;
+    border: 1px solid transparent;
+    font-size: 9pt;
+    font-weight: 500;
+    font-family: "Segoe UI", Arial, Verdana, sans-serif;
+    color: #444444;
+    padding-left: 4px;
+    outline-color: #E1E1E1; }
+  .lr_ribbon .lr_inputDropdown .lr_menuopener {
+    position: relative;
+    float: left;
+    border: 1px solid transparent;
+    padding-left: 1px;
+    padding-right: 1px; }
+    .lr_ribbon .lr_inputDropdown .lr_menuopener:hover {
+      background-color: #D3F0E0;
+      border: 1px solid #9FD5B7; }
+    .lr_ribbon .lr_inputDropdown .lr_menuopener .caret {
+      margin-top: 8px;
+      margin-bottom: 8px; }
+  .lr_ribbon .lr_inputDropdown.lr_menuListOpened {
+    border: 1px solid gray; }
+    .lr_ribbon .lr_inputDropdown.lr_menuListOpened .lr_menuopener {
+      border: 1px solid #9FD5B7;
+      background-color: #9FD5B7; }
+  .lr_ribbon .lr_inputDropdown.lr_fontSizeMode .lr_controlPartInput {
+    width: 23px; }
+  .lr_ribbon .lr_inputDropdown.lr_fontFamilyMode .lr_controlPartInput {
+    width: 90px; }
+  .lr_ribbon .lr_inputDropdown.lr_fontFamilyMode.lrc_numberFormat .lr_controlPartInput {
+    width: 108px; }
+  .lr_ribbon .lr_inputDropdown.lr_disable:hover, .lr_ribbon .lr_inputDropdown.lr_disable .lr_menuopener:hover {
+    outline: none;
+    background-color: gray;
+    border-color: gray; }
+  .lr_ribbon .lr_inputDropdown.lr_disable .lr_controlPartInput {
+    pointer-events: none; }
+
+.lr_ribbonContainer .lr_inputDropdownMenu {
+  max-height: 500px;
+  box-sizing: content-box; }
+  .lr_ribbonContainer .lr_inputDropdownMenu:focus {
+    outline: none; }
+  .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem {
+    outline: none; }
+    .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem:hover {
+      background-color: #D3F0E0; }
+    .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem.lr_inputMenuItemFocused {
+      background-color: #D3F0E0; }
+    .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem .lr_inputMenuItem {
+      display: block;
+      vertical-align: middle;
+      height: 24px;
+      width: 100%; }
+      .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_icon {
+        margin-top: 3px;
+        padding-top: 0px;
+        padding-bottom: 0px; }
+      .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_text {
+        padding-left: 8px;
+        margin-top: 4px; }
+      .lr_ribbonContainer .lr_inputDropdownMenu .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_subText {
+        float: right;
+        padding: 2px 4px 0 0; }
+
+.lr_ribbonContainer #menu_id_fontsize .lr_inputDropdownMenu.lr_fontSizeMode {
+  padding-right: 23px;
+  width: 25px; }
+  .lr_ribbonContainer #menu_id_fontsize .lr_inputDropdownMenu.lr_fontSizeMode .lr_inputDropdownMenuItem .lr_inputMenuItem {
+    height: 20px; }
+    .lr_ribbonContainer #menu_id_fontsize .lr_inputDropdownMenu.lr_fontSizeMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText {
+      display: inline; }
+      .lr_ribbonContainer #menu_id_fontsize .lr_inputDropdownMenu.lr_fontSizeMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText .lr_text {
+        font-size: 12px;
+        padding-left: 3px; }
+
+.lr_ribbonContainer #menu_id_fontFamily .lr_inputDropdownMenu.lr_fontFamilyMode {
+  width: 295px;
+  overflow-y: scroll; }
+  .lr_ribbonContainer #menu_id_fontFamily .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText {
+    display: inline; }
+    .lr_ribbonContainer #menu_id_fontFamily .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText .lr_text {
+      font-size: 16px; }
+
+.lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode {
+  width: 189px;
+  height: auto; }
+  .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lrc_numberFormat_Custom {
+    display: none; }
+  .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lr_menuitem.lr_menuitemText:hover {
+    background-color: #D3F0E0; }
+  .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem {
+    display: flex;
+    vertical-align: middle;
+    height: 44px;
+    width: 100%; }
+    .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_icon {
+      margin-top: 3px;
+      padding-top: 0px;
+      padding-bottom: 0px; }
+    .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText {
+      display: inline-block;
+      width: 140px;
+      color: #5E5E5E; }
+      .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText .lr_text {
+        padding-left: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        vertical-align: baseline;
+        box-sizing: border-box;
+        margin-top: 6px; }
+      .lr_ribbonContainer #menu_id_numberFormat .lr_inputDropdownMenu.lr_fontFamilyMode .lr_inputDropdownMenuItem .lr_inputMenuItem .lr_inputDropdownMenuItemText .lr_subText {
+        float: right;
+        padding: 2px 4px 0 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 4px;
+        margin-top: 3px; }
+
+.lr_ribbonContainer .lr_colorpicker {
+  padding-left: 1px;
+  padding-right: 1px; }
+  .lr_ribbonContainer .lr_colorpicker:focus {
+    outline: none; }
+
+.lr_ribbonContainer .lr_colorpicker_grid {
+  margin: 2px 0; }
+
+.lr_ribbonContainer .lr_colorpicker_multiple_rows {
+  font-size: 0px; }
+  .lr_ribbonContainer .lr_colorpicker_multiple_rows .lr_colorpicker_cell {
+    border-width: 0px 1px 0 1px; }
+
+.lr_ribbonContainer .lr_colorpicker_cell {
+  margin: 0px 2px;
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  border: 1px solid #E2E4E7;
+  font-size: 0px;
+  box-sizing: border-box; }
+  .lr_ribbonContainer .lr_colorpicker_cell:hover {
+    border: 1px solid #EF4810; }
+
+.lr_ribbonContainer .lr_colorpicker_row .lr_colorpicker_highlight {
+  border: 1px solid #EF4810; }
+  .lr_ribbonContainer .lr_colorpicker_row .lr_colorpicker_highlight .lr_colorpicker_cell_inner_div {
+    border: 1px solid #FFE294; }
+
+.lr_ribbonContainer .lr_colorpicker_row {
+  white-space: nowrap; }
+
+.lr_ribbonContainer .lr_colorpicker_menuItem {
+  max-height: 23px;
+  padding-left: 3px; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem .lr_text {
+    font-size: 9pt;
+    height: 19px;
+    text-align: left;
+    padding: 0 8px; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem .lr_icon {
+    margin-top: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem.lr_colorPicker_focused_item:focus {
+    background-color: #D3F0E0;
+    outline: none; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem:hover {
+    background-color: #D3F0E0; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem:focus {
+    outline: none; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem .lr_text {
+    padding-top: 4px; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem.lr_colorpicker_highlight .lr_icon .icon-binder {
+    border: 1px solid #A3BDE3;
+    border-color: #A3BDE3;
+    background-color: #E6EEFA; }
+  .lr_ribbonContainer .lr_colorpicker_menuItem.lr_colorpicker_highlight .lr_icon .icon {
+    border: 1px solid #E2E4E7;
+    width: 14px;
+    height: 14px; }
+
+.lr_ribbonContainer .lr_colorpicker_cell .lr_colorpicker_cell_inner_div {
+  height: 9px;
+  width: 9px;
+  border: 1px solid transparent;
+  box-sizing: content-box; }
+  .lr_ribbonContainer .lr_colorpicker_cell .lr_colorpicker_cell_inner_div:hover {
+    border: 1px solid #FFE294; }
+
+.lr_ribbonContainer .lr_colorpicker_cell.lr_colorPicker_focused_item {
+  outline: none;
+  border: 1px solid #EF4810; }
+  .lr_ribbonContainer .lr_colorpicker_cell.lr_colorPicker_focused_item .lr_colorpicker_cell_inner_div {
+    border: 1px solid #FFE294; }
+
+/*# sourceMappingURL=ribbon-bundle.css.map*/
